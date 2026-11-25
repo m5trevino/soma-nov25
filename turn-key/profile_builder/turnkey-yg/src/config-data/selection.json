@@ -1,0 +1,393 @@
+[
+  {
+    "modelId": "Qwen/Qwen3.6-35B-A3B-FP8",
+    "modelName": "Hetzner Inference Qwen3.6 35B A3B FP8",
+    "provider": "hetzner",
+    "providerLabel": "Hetzner",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": 0,
+      "known": true,
+      "free_kind": "unknown"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 262144,
+    "max_output": 131072,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": false
+    }
+  },
+  {
+    "modelId": "apodex/apodex-1.1-mini",
+    "modelName": "Apodex 1.1 Mini",
+    "provider": "novita",
+    "providerLabel": "Novita",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 262144,
+    "max_output": 262144,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": true
+    }
+  },
+  {
+    "modelId": "bunny",
+    "modelName": "Bunny",
+    "provider": "novita",
+    "providerLabel": "Novita",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 262144,
+    "max_output": 32768,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": false
+    }
+  },
+  {
+    "modelId": "dev/glm46",
+    "modelName": "dev/glm46",
+    "provider": "novita",
+    "providerLabel": "Novita",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 256000,
+    "max_output": 256000,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": false
+    }
+  },
+  {
+    "modelId": "cohere/north-mini-code:free",
+    "modelName": "Cohere: North Mini Code (free)",
+    "provider": "openrouter",
+    "providerLabel": "OpenRouter",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 256000,
+    "max_output": 64000,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": false
+    }
+  },
+  {
+    "modelId": "dots-studio/dots-3-note-preview:free",
+    "modelName": "Dots Studio: Dots3-Note Preview (free)",
+    "provider": "openrouter",
+    "providerLabel": "OpenRouter",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 512000,
+    "max_output": 460800,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": true,
+      "reasoning": false
+    }
+  },
+  {
+    "modelId": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "modelName": "NVIDIA: Nemotron 3 Nano Omni (free)",
+    "provider": "openrouter",
+    "providerLabel": "OpenRouter",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 256000,
+    "max_output": 65536,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": true,
+      "reasoning": true
+    }
+  },
+  {
+    "modelId": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "modelName": "NVIDIA: Nemotron 3 Ultra (free)",
+    "provider": "openrouter",
+    "providerLabel": "OpenRouter",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 1000000,
+    "max_output": 65536,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": true
+    }
+  },
+  {
+    "modelId": "nvidia/nemotron-3.5-lightning:free",
+    "modelName": "NVIDIA: Nemotron 3.5 Lightning (free)",
+    "provider": "openrouter",
+    "providerLabel": "OpenRouter",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 1000000,
+    "max_output": 65536,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": false
+    }
+  },
+  {
+    "modelId": "nvidia/nemotron-3.5-super-vl:free",
+    "modelName": "NVIDIA: Nemotron 3.5 Super VL (free)",
+    "provider": "openrouter",
+    "providerLabel": "OpenRouter",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 1000000,
+    "max_output": 131072,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": true,
+      "reasoning": false
+    }
+  },
+  {
+    "modelId": "xingchen-agi/xing4.0-29b-a4b:free",
+    "modelName": "XingChen: Xing4.0 29B A4B (free)",
+    "provider": "openrouter",
+    "providerLabel": "OpenRouter",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 262144,
+    "max_output": 235929,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": true
+    }
+  },
+  {
+    "modelId": "cohere/command-a",
+    "modelName": "Command A",
+    "provider": "xkiro",
+    "providerLabel": "xKiro",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 288000,
+    "max_output": 8192,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": false
+    }
+  },
+  {
+    "modelId": "cohere/command-a-plus",
+    "modelName": "Command A+",
+    "provider": "xkiro",
+    "providerLabel": "xKiro",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 436000,
+    "max_output": 64000,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": true,
+      "reasoning": true
+    }
+  },
+  {
+    "modelId": "cohere/north-mini-code",
+    "modelName": "North Mini Code",
+    "provider": "xkiro",
+    "providerLabel": "xKiro",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 256000,
+    "max_output": 64000,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": true
+    }
+  },
+  {
+    "modelId": "mistralai/codestral-2508",
+    "modelName": "Codestral",
+    "provider": "xkiro",
+    "providerLabel": "xKiro",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 256000,
+    "max_output": 16384,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": false
+    }
+  },
+  {
+    "modelId": "mistralai/devstral-medium",
+    "modelName": "Devstral 2",
+    "provider": "xkiro",
+    "providerLabel": "xKiro",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 256000,
+    "max_output": 16384,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": false
+    }
+  },
+  {
+    "modelId": "stealth/big-pickle",
+    "modelName": "Big Pickle (Free)",
+    "provider": "xkiro",
+    "providerLabel": "xKiro",
+    "pricing": {
+      "input_1m": 0,
+      "output_1m": 0,
+      "cache_read_1m": null,
+      "known": true,
+      "free_kind": "free"
+    },
+    "free": true,
+    "free_label": "FREE",
+    "context": 200000,
+    "max_output": 65536,
+    "capabilities": {
+      "text": true,
+      "tools": true,
+      "image": false,
+      "reasoning": true
+    }
+  }
+]

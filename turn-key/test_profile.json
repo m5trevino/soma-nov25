@@ -1,0 +1,60 @@
+{
+  "name": "Test Profile",
+  "description": "Test profile for TurnKey functionality",
+  "deck": [
+    {
+      "modelId": "gpt-4",
+      "modelName": "GPT-4",
+      "provider": "OpenRouter",
+      "providerLabel": "OpenRouter",
+      "pricing": {
+        "input_1m": 0.8,
+        "output_1m": 2.4,
+        "cache_read_1m": 0.4,
+        "known": true,
+        "free_kind": "unknown"
+      },
+      "free": false,
+      "free_label": null,
+      "context": 8192,
+      "max_output": 4096,
+      "capabilities": {"text": true, "tools": false, "image": false, "reasoning": false}
+    },
+    {
+      "modelId": "claude-3",
+      "modelName": "Claude-3",
+      "provider": "OpenRouter",
+      "providerLabel": "OpenRouter",
+      "pricing": {
+        "input_1m": 1.2,
+        "output_1m": 3.6,
+        "cache_read_1m": 0.6,
+        "known": true,
+        "free_kind": "unknown"
+      },
+      "free": false,
+      "free_label": null,
+      "context": 8192,
+      "max_output": 4096,
+      "capabilities": {"text": true, "tools": false, "image": false, "reasoning": false}
+    }
+  ],
+  "stages": [
+    {
+      "stageName": "deploy",
+      "pinnedModels": [],
+      "useDeck": true
+    },
+    {
+      "stageName": "analyze",
+      "pinnedModels": ["claude-3"],
+      "useDeck": true
+    }
+  ],
+  "pipeline": {
+    "timeout": 180,
+    "maxRetries": 3,
+    "engineUrl": "http://engine.save-aichats.com:3099",
+    "engineKey": "test-key-123"
+  }
+}

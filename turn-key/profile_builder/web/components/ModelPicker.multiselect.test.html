@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ModelPicker multi-select test</title>
+  <script type="module">
+    import { ModelPicker } from './ModelPicker.js';
+
+    const models = [
+      { id: 'model-a', tier: 'balanced', tools_supported: false },
+      { id: 'model-b', tier: 'apex', tools_supported: true },
+      { id: 'model-c', tier: 'stealth', tools_supported: false },
+    ];
+
+    const picker = document.createElement('model-picker');
+    picker.models = models;
+    document.body.appendChild(picker);
+
+    // Wait for render
+    await customElements.whenDefined('model-picker');
+    await new Promise(r => setTimeout(r, 50));
+
+    const options = picker.shadowRoot.querySelectorAll('.option');
+    console.log('OPTIONS_COUNT:', options.length);
+
+    // Normal click first model
+    options[0].click();
+    // Ctrl+click second and third
+    options[1].click({ ctrlKey: true });
+    options[2].click({ ctrlKey: true });
+
+    console.log('SELECTED_COUNT:', picker._selectedIds.size);
+    console.log('SELECTED_IDS:', [...picker._selectedIds].join(','));
+  </script>
+</head>
+<body></body>
+</html>

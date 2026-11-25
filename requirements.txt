@@ -1,0 +1,12 @@
+# App: board and tools
+textual==0.58.1
+rich==15.0.0
+# Tests
+pytest==9.1.1
+# Session picker backend (versions from soma-session-picker/backend/requirements.txt)
+fastapi==0.115.0
+uvicorn==0.30.6
+aiosqlite==0.20.0
+python-dotenv==1.0.1
+# TurnKey SDK is stdlib-only and is installed editable from ./turn-key:
+#   .venv/bin/pip install -e ./turn-key
